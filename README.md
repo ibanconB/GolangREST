@@ -1,2 +1,2 @@
 # GolangREST
-Proyecto de plan de carrea
+Proyecto de plan de carrera
