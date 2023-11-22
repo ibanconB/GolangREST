@@ -13,7 +13,7 @@ type joke struct {
 }
 
 func main() {
-	resp, err := http.Get("https://v2.jokeapi.dev/joke/Programming?lang=es&type=single")
+	resp, err := http.Get("https://v2.jokeapi.dev/joke/Programming?lang=es&type=single&amount=1")
 
 	if err != nil {
 		fmt.Println("Error en solicitud", err)
