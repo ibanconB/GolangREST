@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora en Go</title>
+</head>
+<body>
+<h1>Calculadora en Go</h1>
+<form action="/" method="post">
+    <input type="text" name="valor1" placeholder="Valor 1" required>
+    <select name="operacion" required>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" name="valor2" placeholder="Valor 2" required>
+    <button type="submit">Calcular</button>
+</form>
+{{if .Resultado}}
+<p>{{.Resultado}}</p>
+{{end}}
+</body>
+</html>
